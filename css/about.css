@@ -1,0 +1,701 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+body{
+    overflow-x: hidden;
+}
+
+
+.mainsection{
+    background: rgba(0,0,0,.8)url("../images/76.jpg");
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    height: 60vh;
+    width: 100vw;
+}
+
+.pic h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 100vw;
+    color: white;
+    font-size: 50px;
+    word-spacing: 4px;
+}
+
+
+.mission{
+    display: flex;
+    padding-top: 10%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+
+.miss2 img{
+    height: 30vh;
+    width: 30vw;
+    object-fit: contain;
+    transition: all .4s;
+}
+
+.miss2 img:hover{
+    border-radius: 40px;
+}
+
+.miss2{
+    width: 40%;
+}
+
+.miss1 h1{
+    padding-left: 26%;
+}
+.miss1 p{
+    width: 40vw;
+    padding-top: 3%;
+    padding-left: 27%;
+    padding-left: 27%;
+    text-align: justify;
+}
+.miss1 ul {
+    padding-top: 20px;
+    padding-left: 27%;
+}
+
+.section{
+    display: flex;
+    padding-top: 100px;
+    padding-right: 10%;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.section2 img{
+    height: auto;
+    width: 25vw; 
+    transition: all .4s;
+}
+
+
+.section2 img:hover{
+    border-radius: 40px;
+}
+
+.section1 h1{
+    padding-left: 150px;
+}
+
+
+.section1 p{
+    width: 50vw;
+    padding-top: 50px;
+    padding-left: 160px;
+    text-align: justify;
+}
+
+
+.section1 ul {
+    padding-top: 30px;
+    padding-left: 180px;
+}
+
+
+.parent{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 130px;
+    width: 100vw;
+}
+
+
+.exp{
+    width: 37%;
+}
+
+
+.exp h1{
+    padding-left: 14%;
+    padding-bottom: 6%;
+}
+
+
+.exp p{
+    padding-left: 14%;
+    padding-right: 14%;
+    text-align: justify;
+}
+
+
+.values h1{
+    padding-bottom: 5%;
+    padding-left: 10px;
+}
+
+
+.values li{
+  
+    padding: 1%;
+}
+
+
+footer{
+    margin-top: 2%;
+}
+
+footer .first{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+footer .first .info h2{
+    color: white;
+    padding: 20px 0px;
+}
+
+
+footer .first .info h4{
+    color: #DD0038;
+    padding: 8px 0px;
+}
+
+
+footer .first .links h2{
+    color: white;
+    padding: 7% 0px;
+}
+
+
+footer .first .links ul li{
+    padding: 10px 0px 5px 5px;
+    /* text-decoration: none; */
+}
+
+footer .first .links ul li a{
+    color: #DD0038;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+footer .first .links ul li a:hover{
+    color: white;
+    cursor: pointer;
+}
+
+
+footer .first .services h2{
+    color: white;
+    padding: 7% 0px;
+}
+
+
+
+footer .first .services h4{
+    color: #DD0038;
+    padding: 10px 0px 5px 5px;
+    /* text-decoration: none; */
+}
+
+
+
+footer .first .logo img{
+    height: 300px;
+    width: 330px;
+}
+
+
+.second{
+    border-top: 2px solid #221A2F;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.second h3{
+    padding: 2% 0px;
+}
+
+.second h3 span{
+    color: #DD0038;
+    
+}
+
+
+
+/* footer */
+
+
+
+
+@media only screen and (max-width: 380px){
+        
+    .mainsection{
+        height: 105vh;
+        background: rgba(0, 0, 0, .7)url('../images/76.jpg');
+        background-blend-mode: darken;
+        background-size: cover;
+    }
+
+
+    .pic h1{
+        font-size: 30px;
+        height: 30vh;
+    }   
+
+
+    
+    .mission{
+        display: block;
+        width: 100%;
+    }
+
+    .miss2 img{
+        height: auto;
+        width: 90vw;
+        object-fit: contain;
+    }
+
+    .miss2{
+        width: 100%;
+        text-align: center;
+    }
+
+    .miss1 h1{
+        padding-left: 0%;
+        text-align: center;
+    }
+    .miss1 p{
+        width: 100%;
+        padding-top: 3%;
+        padding-left: 0%;
+        padding: 20px 20px;
+        text-align: justify;
+    }
+    .miss1 ul {
+        padding-top: 30px;
+        padding-left: 0%;
+        padding: 7px 20px 15px 20px;
+    }
+
+        
+    .section{
+        padding-right: 0px;
+        display: block;
+        width: 100%;
+    
+    }
+
+    .section1 h1{
+        padding-left: 0px;
+        text-align: center;
+    }
+    
+    
+    .section1 p{
+        width: 100%;
+        padding: 15px 8%;
+    }
+
+    .section1 ul {
+        padding: 15px 8%;
+    }
+    
+    .section2 img{
+        height: auto;
+        width: 100vw;
+        padding: 5%;
+        object-fit: contain;
+        transition: all .4s;
+    }
+    
+
+    .parent{
+        display: block;
+        padding-top: 7%;
+        width: 100vw;
+    }
+
+
+    .exp{
+        width: 100%;
+    }
+
+
+    .exp h1{
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .exp p{
+        padding: 0px 10%;
+    }
+
+
+    .values{
+        padding: 0px 10%;
+
+    }
+
+    .values h1{
+        padding-bottom: 6%;
+        padding-top: 7%;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+
+    .values li{
+        padding: 1%;
+        text-align: justify;
+
+    }
+
+
+    
+}
+
+
+
+@media only screen and (min-width: 380px) and (max-width: 540px){
+    .mainsection{
+        height: 110vh;
+        background: rgba(0, 0, 0, .7)url('../images/76.jpg');
+        background-blend-mode: darken;
+        background-size: cover;
+    }
+
+
+    .pic h1{
+        font-size: 35px;
+        height: 55vh;
+    }  
+
+   
+    
+    .mission{
+        display: block;
+        width: 100%;
+    }
+
+    .miss2 img{
+        height: auto;
+        width: 90vw;
+        object-fit: contain;
+    }
+
+    .miss2{
+        width: 100%;
+        text-align: center;
+    }
+
+    .miss1 h1{
+        padding-left: 0%;
+        text-align: center;
+    }
+    .miss1 p{
+        width: 100%;
+        padding-top: 3%;
+        padding-left: 0%;
+        padding: 20px 30px;
+        text-align: justify;
+    }
+    .miss1 ul {
+        padding-top: 30px;
+        padding-left: 0%;
+        padding: 7px 30px 15px 30px;
+    }
+
+    .section{
+        padding-right: 0px;
+        display: block;
+        width: 100%;
+    
+    }
+
+    .section1 h1{
+        padding-left: 0px;
+        text-align: center;
+    }
+    
+    
+    .section1 p{
+        width: 100%;
+        padding: 15px 8%;
+    }
+
+    .section1 ul {
+        padding: 15px 8%;
+    }
+    
+    .section2 img{
+        height: auto;
+        width: 100vw;
+        padding: 5%;
+        object-fit: contain;
+        transition: all .4s;
+    }
+    
+
+    
+    .parent{
+        display: block;
+        padding-top: 7%;
+        width: 100vw;
+    }
+
+
+    .exp{
+        width: 100%;
+    }
+
+
+    .exp h1{
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .exp p{
+        padding: 0px 10%;
+    }
+
+
+    .values{
+        padding: 0px 10%;
+
+    }
+
+    .values h1{
+        padding-bottom: 6%;
+        padding-top: 7%;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+
+    .values li{
+        padding: 1%;
+        text-align: justify;
+
+    }
+
+
+}
+
+
+
+
+@media only screen and (min-width: 540px) and (max-width: 786px){
+    .mainsection{
+        height: 110vh;
+        background: rgba(0, 0, 0, .7)url('../images/76.jpg');
+        background-blend-mode: darken;
+        background-size: cover;
+    }
+
+    .pic h1{
+        font-size: 45px;
+        height: 55vh;
+    }  
+    
+    .mission{
+        display: block;
+        width: 100%;
+    }
+
+    .miss2 img{
+        height: auto;
+        width: 90vw;
+        object-fit: contain;
+    }
+
+    .miss2{
+        width: 100%;
+        text-align: center;
+    }
+
+    .miss1 h1{
+        padding-left: 0%;
+        text-align: center;
+    }
+    .miss1 p{
+        width: 100%;
+        padding-top: 3%;
+        padding-left: 0%;
+        padding: 20px 30px;
+        text-align: justify;
+    }
+    .miss1 ul {
+        padding-top: 40px;
+        padding-left: 0%;
+        padding: 7px 40px 15px 40px;
+    }
+
+    .section{
+        padding-right: 0px;
+        display: block;
+        width: 100%;
+    
+    }
+
+    .section1 h1{
+        padding-left: 0px;
+        text-align: center;
+    }
+    
+    
+    .section1 p{
+        width: 100%;
+        padding: 15px 8%;
+    }
+
+    .section1 ul {
+        padding: 15px 8%;
+    }
+    
+    .section2 img{
+        width: 70vw;
+        height: auto;
+        padding: 5%;
+        display: block;
+        margin: 0 auto;
+        object-fit: contain;
+        transition: all .4s;
+    }
+    
+
+    .parent{
+        display: block;
+        padding-top: 7%;
+        width: 100vw;
+    }
+
+
+    .exp{
+        width: 100%;
+    }
+
+
+    .exp h1{
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .exp p{
+        padding: 0px 10%;
+    }
+
+
+    .values{
+        padding: 0px 10%;
+
+    }
+    
+    
+    .values{
+        padding: 0px 10%;
+
+    }
+
+    .values h1{
+        padding-bottom: 6%;
+        padding-top: 7%;
+        padding-left: 0px;
+        padding-left: 16%;
+    }
+
+
+    .values li{
+        padding: 1%;
+        text-align: justify;
+        padding-left: 16%;
+
+    }
+
+}
+
+
+
+
+@media only screen and (min-width: 786px) and (max-width: 990px){
+    
+    .mission{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .miss2 img{
+        width: 40vw;
+        object-fit: contain;
+    }
+
+
+    .section2 img{
+        height: auto;
+    }
+    
+    
+}
+
+
+@media only screen and (min-width: 990px) and (max-width: 1100px){
+    
+    .mission{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .miss2 img{
+        width: 40vw;
+        object-fit: contain;
+    }
+
+    
+    .section2 img{
+        height: auto;
+    }
+
+    .exp h1{
+        padding-left: 14%;
+    } 
+    
+    
+    /* padding-left: 14%;
+    padding-bottom: 3%; */
+
+}
+
+
+@media only screen and (min-width: 1100px){
+    .exp h1{
+        padding-left: 14%;
+        padding-bottom: 3%;
+    } 
+}
+
+
+
+
+@media only screen and (min-width: 1450px){
+    .section2 img{
+        width: 15vw;
+        height: auto;
+    }
+
+}

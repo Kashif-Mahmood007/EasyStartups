@@ -1,0 +1,36 @@
+
+    Cloning the Repository
+
+To clone the project, use the following command:
+    git clone <repository_url>
+
+
+Setting Up the Database:
+    1. Create a MySQL database named easystartups.
+    2. Create the following tables with their respective columns:
+
+
+    Table: signup
+        -> sno  (primary key (int 11))
+        -> name  (Unique, (varchar 30))
+        -> email (varchar 50)
+        -> phone (varchar 15)
+        -> password (varchar 255)
+        -> datetime (current)
+
+
+
+    Table: contact
+        -> sno  (primary key (int 11))
+        -> loggedinID  (int 11)
+        -> name  (varchar 50)
+        -> phone  (varchar 15)
+        -> email  (varchar 50)
+        -> city  (varchar 30)
+        -> country  (varchar 30)
+        -> address  (Text)
+        -> skills  (Text)
+        -> ideatitle  (varchar 100)
+        -> ideadesc  (Text)
+        -> resources  (Text)
+        -> datetime (current)
